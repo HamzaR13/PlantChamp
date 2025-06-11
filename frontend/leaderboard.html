@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlantChamp Leaderboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🥇 PlantChamp Leaderboard</h1>
+    <p>See who’s crushing it in each category!</p>
+
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="biggest-chili">Biggest Chili</option>
+      <option value="tallest-tomato">Tallest Tomato</option>
+    </select>
+
+    <table id="leaderboardTable">
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Username</th>
+          <th>Category</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Entries will be inserted here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="leaderboard.js"></script>
+</body>
+</html>
