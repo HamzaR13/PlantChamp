@@ -6,18 +6,21 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>🌱 PlantChamp by Haiz2Rizz</h1>
+  <div class="container">
+    <h1>🌿 PlantChamp</h1>
+    <p>Upload your plant and see how you rank!</p>
 
-  <form id="uploadForm" enctype="multipart/form-data">
-    <input type="file" name="image" required />
-    <select name="category">
-      <option value="biggest-chili">Biggest Chili</option>
-      <option value="tallest-tomato">Tallest Tomato</option>
-    </select>
-    <button type="submit">Upload</button>
-  </form>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" name="image" required />
+      <select name="category">
+        <option value="biggest-chili">Biggest Chili</option>
+        <option value="tallest-tomato">Tallest Tomato</option>
+      </select>
+      <button type="submit">Upload</button>
+    </form>
 
-  <p id="result"></p>
+    <p id="result"></p>
+  </div>
 
   <script src="script.js"></script>
 </body>
