@@ -8,7 +8,7 @@
 <body>
   <div class="container">
     <h1>🌿 PlantChamp</h1>
-    <p>Upload your plant and see how you rank!</p>
+    <p id="welcomeText"></p>
 
     <form id="uploadForm" enctype="multipart/form-data">
       <input type="file" name="image" required />
@@ -19,9 +19,11 @@
       <button type="submit">Upload</button>
     </form>
 
-    <a href="leaderboard.html" class="nav-button">View Leaderboard</a>
-
     <p id="result"></p>
+
+    <a href="leaderboard.html" class="nav-button">View Leaderboard</a>
+    <br /><br />
+    <button onclick="logout()" class="nav-button" style="background-color: #d32f2f;">Log Out</button>
   </div>
 
   <script src="script.js"></script>
