@@ -8,7 +8,7 @@
 <body>
   <div class="container">
     <h1>🥇 PlantChamp Leaderboard</h1>
-    <p>See who’s crushing it in each category!</p>
+    <p id="uploadStatus"></p>
 
     <select id="categoryFilter">
       <option value="all">All Categories</option>
@@ -22,15 +22,17 @@
           <th>Rank</th>
           <th>Username</th>
           <th>Category</th>
-          <th>Image</th>
+          <th>Length (cm)</th>
         </tr>
       </thead>
       <tbody>
-        <!-- Entries will be inserted here -->
+        <!-- Entries go here -->
       </tbody>
     </table>
-  </div>
 
+    <br />
+    <a href="index.html" class="nav-button">⬅ Back to Upload</a>
+  </div>
   <script src="leaderboard.js"></script>
 </body>
 </html>

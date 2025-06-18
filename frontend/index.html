@@ -10,13 +10,31 @@
     <h1>🌿 PlantChamp</h1>
     <p id="welcomeText"></p>
 
+    <!-- Toggle Buttons -->
+    <div>
+      <button onclick="toggleMode('manual')" class="nav-button" id="manualBtn">Manual Input</button>
+      <button onclick="toggleMode('ai')" class="nav-button" id="aiBtn">AI Mode</button>
+    </div>
+
+    <!-- Manual Upload Form -->
     <form id="uploadForm" enctype="multipart/form-data">
       <input type="file" name="image" required />
       <select name="category">
         <option value="biggest-chili">Biggest Chili</option>
         <option value="tallest-tomato">Tallest Tomato</option>
       </select>
+      <input type="number" name="length" placeholder="Enter length (cm)" required />
       <button type="submit">Upload</button>
+    </form>
+
+    <!-- AI Upload Form -->
+    <form id="aiForm" enctype="multipart/form-data" style="display:none">
+      <input type="file" name="image" required />
+      <select name="category">
+        <option value="biggest-chili">Biggest Chili</option>
+        <option value="tallest-tomato">Tallest Tomato</option>
+      </select>
+      <button type="submit">Upload with AI</button>
     </form>
 
     <p id="result"></p>
@@ -24,7 +42,15 @@
     <a href="leaderboard.html" class="nav-button">View Leaderboard</a>
     <br /><br />
     <button onclick="logout()" class="nav-button" style="background-color: #d32f2f;">Log Out</button>
-  </div>
+    
+    <div id="aiInstructions" style="display: none; margin-top: 20px;">
+        <p style="color: #2e7d32; font-weight: bold;">
+          📸 Make sure your hand is clearly visible next to the plant in the photo.
+          The AI uses your hand as a reference to measure plant length.
+        </p>
+      </div>      
+
+</div>
 
   <script src="script.js"></script>
 </body>
