@@ -46,23 +46,3 @@ Current Tech Stack:
    python app.py
 5. Open the frontend:
    Open frontend/index.html in your browser.
-
-
-Current folder structure:
-PlantChamp/
-│
-├── backend/
-│   ├── app.py
-│   ├── ai_measure.py
-│   ├── uploads/
-│   └── ...
-│
-├── frontend/
-│   ├── index.html
-│   ├── login.html
-│   ├── leaderboard.html
-│   ├── script.js
-│   └── style.css
-│
-├── requirements.txt
-└── README.md
