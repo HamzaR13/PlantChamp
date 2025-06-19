@@ -5,7 +5,7 @@ Coming soon:
 - More categories
 
 Demo Video:
-C:\Users\hamza\OneDrive\Desktop\PlantChamp\PlantChamp Demo vid.mp4
+
 
 What is PlantChamp?
 PlantChamp is a fun, competitive web platform where users:
