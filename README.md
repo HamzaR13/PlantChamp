@@ -6,6 +6,7 @@ Coming soon:
 
 Demo Video:
 
+https://github.com/user-attachments/assets/6fd3c641-442e-45f6-b098-2c7ddf5f3fe2
 
 What is PlantChamp?
 PlantChamp is a fun, competitive web platform where users:
