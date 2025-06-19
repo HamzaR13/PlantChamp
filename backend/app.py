@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 
-# ✅ Import AI logic
+# Import AI logic
 from ai_measure import estimate_plant_length
 
 app = Flask(__name__)
